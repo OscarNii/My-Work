@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    min-height: 100vh;
+    background: linear-gradient(80deg, black, rgb(95, 1, 95));
+    overflow: hidden;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icons{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+ 
+ul li{
+   list-style: none;
+   margin-left: 62px;
+   margin-top: 27px;
+   font-size: 14px; 
+}
+
+ul li a{
+    text-decoration: none;
+    columns: white;
+}

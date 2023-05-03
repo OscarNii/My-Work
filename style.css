@@ -20,7 +20,7 @@ body{
 }
 
 .logo{
-    color: white;
+    color: red;
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 20px;
@@ -32,6 +32,7 @@ body{
     width: 400px;
     float: left;
     height: 70px;
+    
 }
 ul{
     float: left;
@@ -50,5 +51,13 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    columns: white;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+
+} 
+
+ul li a:hover{
+    color: black;
 }
